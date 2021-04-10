@@ -10,3 +10,6 @@ celery*.log
 env.sh
 .cache
 .idea/
+.env
+volumes*
+celerybeat-schedule
