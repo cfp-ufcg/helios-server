@@ -6,6 +6,8 @@ services:
             - .env
         ports:
             - "6432:5432"
+        restart: "${DOCKER_RESTART_POLICY:-unless-stopped}"
+        stop_grace_period: "${DOCKER_STOP_GRACE_PERIOD:-3s}"
         volumes:
             - ./volumes/db/:/var/lib/postgresql/data
             - ./docker/db/init.sql:/docker-entrypoint-initdb.d/init.sql
