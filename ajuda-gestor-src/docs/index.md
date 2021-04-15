@@ -6,4 +6,4 @@ Nessa página (veja menu ao lado) estão disponíveis manuais de uso do Helios p
 
 - Eleitor
 - Gestor de eleição (responsável por criar e conduzir uma eleição)
-- Apurador humano (caso a eleição tenha sido criada com essa necessidade)
+- Apurador hujmano (caso a eleição tenha sido criada com essa necessidade)
