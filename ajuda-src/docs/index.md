@@ -2,8 +2,11 @@
 
 
 
-1. Para votar use as informações que recebeu por email (id do eleitor, senha e link da eleição).
-    ![Autenticação do eleitor](img/eleitor-01.png "Autenticação do eleitor")
+1.1. Para votar clique no botão **Conectar** na tela inicial.
+    ![Autenticação do eleitor](img/eleitor-01-1.png "Autenticação do eleitor")
+
+1.2. Você será redirecionado para a página de login do **Google**. Entre com seu **G-Suite** (Encontrado no PSI).
+    ![Autenticação do eleitor](img/eleitor-01-2.png "Autenticação do eleitor")
 
 2. A página inicial contém as instruções, clique no botão **Iniciar**
     ![Tela inicial](img/eleitor-02.png "Tela inicial com instruções")
@@ -31,4 +34,4 @@
 8. Parabéns, seu voto foi depositado com sucesso.
     ![Voto depositado com sucesso](img/eleitor-08.png "Tela final - voto depositado com sucesso")
 
-**Atenção:** O sistema Helios permite que você deposite cédulas na urna quantas vezes desejar. Porém, somente a última cédula depositada é a que será contabilizada na apuração da urna. Todas as cédulas anteriores serão descartadas.  
+**Atenção:** O sistema Helios permite que você deposite cédulas na urna quantas vezes desejar. Porém, somente a última cédula depositada é a que será contabilizada na apuração da urna. Todas as cédulas anteriores serão descartadas.

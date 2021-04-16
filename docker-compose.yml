@@ -1,5 +1,15 @@
 version: '3'
 services:
+    docs:
+        image: squidfunk/mkdocs-material:3.3.0
+        command: build
+        volumes:
+            - ./ajuda-src:/docs
+    docs_gestor:
+        image: squidfunk/mkdocs-material:3.3.0
+        command: build
+        volumes:
+            - ./ajuda-gestor-src:/docs
     db:
         image: postgres
         env_file:

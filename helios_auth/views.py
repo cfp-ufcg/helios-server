@@ -151,8 +151,8 @@ def _do_auth(request):
     return HttpResponse("an error occurred trying to contact " + system_name +", try again later")
   
 def start(request, system_name):
-  if not (system_name in helios_auth.ENABLED_AUTH_SYSTEMS):
-    return HttpResponseRedirect(reverse(AUTH_INDEX))
+  # if not (system_name in helios_auth.ENABLED_AUTH_SYSTEMS):
+  #   return HttpResponseRedirect(reverse(AUTH_INDEX))
   
   # why is this here? Let's try without it
   # request.session.save()

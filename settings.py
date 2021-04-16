@@ -219,7 +219,7 @@ VOTER_UPLOAD_REL_PATH = "voters/%Y/%m/%d"
 
 # Change your email settings
 DEFAULT_FROM_EMAIL = get_from_env('DEFAULT_FROM_EMAIL', 'dti@cfp.ufcg.edu.br')
-DEFAULT_FROM_NAME = get_from_env('DEFAULT_FROM_NAME', u'Sistema de Votação Eletrônica - CFP/UFCG')
+DEFAULT_FROM_NAME = get_from_env('DEFAULT_FROM_NAME', 'Sistema de Votação Eletrônica - CFP/UFCG')
 SERVER_EMAIL = '%s <%s>' % (DEFAULT_FROM_NAME, DEFAULT_FROM_EMAIL)
 
 LOGIN_URL = '/auth/'
@@ -236,7 +236,7 @@ SECURE_URL_HOST = get_from_env("SECURE_URL_HOST", URL_HOST).rstrip("/")
 
 # election stuff
 SITE_TITLE = get_from_env('SITE_TITLE', u'Sistema de Votação Eletrônica - CFP/UFCG')
-MAIN_LOGO_URL = get_from_env('MAIN_LOGO_URL', '/static/logo.png')
+MAIN_LOGO_URL = get_from_env('MAIN_LOGO_URL', '/static/img/logo.svg')
 ALLOW_ELECTION_INFO_URL = (get_from_env('ALLOW_ELECTION_INFO_URL', '0') == '1')
 
 # FOOTER links
@@ -349,7 +349,7 @@ AUTH_LDAP_BIND_AS_AUTHENTICATING_USER = True
 
 AUTH_LDAP_ALWAYS_UPDATE_USER = False
 
-AUTH_BIND_USERID_TO_VOTERID = ['ldap']
+AUTH_BIND_USERID_TO_VOTERID = ['google']
 
 # Shibboleth auth settings
 SHIBBOLETH_ATTRIBUTE_MAP = {

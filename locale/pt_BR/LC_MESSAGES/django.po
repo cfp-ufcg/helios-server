@@ -1095,7 +1095,7 @@ msgstr "Você está apto a votar nesta "
 
 #: helios/templates/election_view.html:63
 msgid "Your voter alias is "
-msgstr "Usar pseudônimo de eleitor é "
+msgstr "Seu pseudônimo de eleitor é "
 
 #: helios/templates/election_view.html:71
 msgid "You are eligible to vote in this election."
@@ -1333,7 +1333,7 @@ msgstr ""
 #: helios/templates/election_view.html:301
 msgid "This {{election.election_type}} ends at the administrator's discretion."
 msgstr ""
-"Esta {{election.election_type}} termina quando o administrador a encerrar."
+"Esta eleição termina quando o administrador a encerrar."
 
 #: helios/templates/election_view.html:305
 #, python-format
@@ -1438,7 +1438,7 @@ msgstr ""
 "desencriptação automaticamente.<br />\n"
 "  Se você cadastrar apuradores adicionais, você pode remover o Helios como "
 "apurador, clicando no botão de excluir da opção \"Sistema de Votação Online "
-"do IFSC\" na listagem de apuradores abaixo.<br />\n"
+"do UFCG\" na listagem de apuradores abaixo.<br />\n"
 
 #: helios/templates/list_trustees.html:32
 msgid "add a trustee"
@@ -2377,7 +2377,7 @@ msgstr "Conecte-se com sua conta {{voter.voter_type}}."
 
 #: helios_auth/auth_systems/ldapauth.py:39
 msgid "Log in with my LDAP Account"
-msgstr "Conectar com meu usuário e senha do IFSC"
+msgstr "Conectar com meu usuário e senha do UFCG"
 
 #: helios_auth/auth_systems/shibboleth.py:24
 msgid "Click here to login"
@@ -3320,12 +3320,12 @@ msgid "Brazilian Portuguese"
 msgstr "Português Brasileiro"
 
 #: settings.py:235
-msgid "IFSC E-Voting System"
-msgstr "Sistema de Votação Online do IFSC"
+msgid "UFCG E-Voting System"
+msgstr "Sistema de Votação Online do UFCG"
 
 #: settings.py:243
-msgid "Welcome to IFSC E-Voting System"
-msgstr "Bem Vindo ao Sistema de Votação Online do IFSC"
+msgid "Welcome to UFCG E-Voting System"
+msgstr "Bem Vindo ao Sistema de Votação Online do UFCG"
 
 #: templates/403.html:3
 msgid "Could not complete your request"
@@ -3484,7 +3484,7 @@ msgstr "mas essa eleição requer credenciais específicas à eleição."
 #~ msgstr "Uma eleição com o nome abreviado de %(short_name)s já existe"
 
 #~ msgid "You are registered to vote in this {{election.election_type}}."
-#~ msgstr "Você está apto (a) a votar nesta {{election.election_type}}."
+#~ msgstr "Você está apto (a) a votar nesta eleição."
 
 #~ msgid "Your voter alias is {{voter.alias}}."
 #~ msgstr "Seu pseudônimo de eleitor é {{voter.alias}}."

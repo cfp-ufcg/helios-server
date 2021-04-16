@@ -3,15 +3,18 @@
 
 site_name: Helios - Sistema de votação eletrônica
 site_description: 'Ajuda do sistema de votação eletrônica'
-site_author: 'Instituto Federal de Santa Catarina'
-copyright: 'Copyright &copy; 2018 - IFSC'
+site_author: 'Universidade Federal de Campina Grande'
+copyright: 'CFP - UFCG'
 
 pages:
-    - Como votar: index.md
+  - Como votar: index.md
 
 theme:
   name: 'material'
   include_sidebar: false
+  palette:
+    primary: indigo
+    accent: indigo
   custom_dir: 'theme'
   logo:
     icon: 'home'
