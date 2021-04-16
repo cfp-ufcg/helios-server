@@ -47,9 +47,9 @@ IMPORTANTE: quando você for solicitado a informar seu login para votar, informe
 <font style="" size="1" face="verdana, sans-serif"><b style="">Universidade Federal de Campina Grande - Reitoria</b>
 </font>
 <br>
-<font style="" size="1" face="verdana, sans-serif">Rua 14 de Julho, 150, Coqueiros, Florianópolis / SC - CEP: 88075-010</font>
+<font style="" size="1" face="verdana, sans-serif">Rua Sérgio Moreira de Figueiredo s/n - Casas Populares, Cajazeiras / PB - CEP: 58900-000</font>
 <br>
-<u><a href="http://www.ufcg.edu.br" target="_blank" style=""><font style="" face="verdana, sans-serif">www.ifsc.edu.br</font></a></u>
+<u><a href="http://cfp.ufcg.edu.br/portal" target="_blank" style=""><font style="" face="verdana, sans-serif">Portal CFP/UFCG</font></a></u>
 
 </body>
 </html>

@@ -1095,7 +1095,7 @@ msgstr "Você está apto a votar nesta "
 
 #: helios/templates/election_view.html:63
 msgid "Your voter alias is "
-msgstr "Usar pseudônimo de eleitor é "
+msgstr "Seu pseudônimo de eleitor é "
 
 #: helios/templates/election_view.html:71
 msgid "You are eligible to vote in this election."
@@ -1333,7 +1333,7 @@ msgstr ""
 #: helios/templates/election_view.html:301
 msgid "This {{election.election_type}} ends at the administrator's discretion."
 msgstr ""
-"Esta {{election.election_type}} termina quando o administrador a encerrar."
+"Esta eleição termina quando o administrador a encerrar."
 
 #: helios/templates/election_view.html:305
 #, python-format
@@ -3484,7 +3484,7 @@ msgstr "mas essa eleição requer credenciais específicas à eleição."
 #~ msgstr "Uma eleição com o nome abreviado de %(short_name)s já existe"
 
 #~ msgid "You are registered to vote in this {{election.election_type}}."
-#~ msgstr "Você está apto (a) a votar nesta {{election.election_type}}."
+#~ msgstr "Você está apto (a) a votar nesta eleição."
 
 #~ msgid "Your voter alias is {{voter.alias}}."
 #~ msgstr "Seu pseudônimo de eleitor é {{voter.alias}}."
