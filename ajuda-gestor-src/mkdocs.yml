@@ -4,22 +4,25 @@
 site_name: Helios - Sistema de votação eletrônica
 site_description: 'Ajuda do sistema de votação eletrônica'
 site_author: 'Universidade Federal de Campina Grande'
-copyright: 'Copyright &copy; 2021 - UFCG'
+copyright: 'CFP - UFCG'
 
 pages:
-    - Inicial: index.md
-    - Eleitor - como votar: eleitor.md
-    - Gestor - Como criar uma eleição: criar.md
-    - Gestor - Como iniciar uma eleição: abrir.md
-    - Gestor - Como finalizar uma eleição: fechar.md
-    - Gestor - Estatísticas: estatisticas.md
-    - Gestor - Como gerar chave do apurador: apurador-gerar.md
-    - Apurador - Como usar chave do apurador: apurador-usar.md
-    - FAQ - Perguntas Frequentes: faq.md
+  - Inicial: index.md
+  - Eleitor - como votar: eleitor.md
+  - Gestor - Como criar uma eleição: criar.md
+  - Gestor - Como iniciar uma eleição: abrir.md
+  - Gestor - Como finalizar uma eleição: fechar.md
+  - Gestor - Estatísticas: estatisticas.md
+  - Gestor - Como gerar chave do apurador: apurador-gerar.md
+  - Apurador - Como usar chave do apurador: apurador-usar.md
+  - FAQ - Perguntas Frequentes: faq.md
 
 theme:
   name: 'material'
-  # include_sidebar: false
+  include_sidebar: false
+  palette:
+    primary: indigo
+    accent: indigo
   custom_dir: 'theme'
   logo:
     icon: 'home'
@@ -31,5 +34,5 @@ theme:
   extra:
   search:
     language: 'pt'
-  feature:
-    navigation.tabs
+  features:
+    - navigation.tabs

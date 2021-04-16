@@ -13,3 +13,5 @@ env.sh
 .env
 volumes*
 celerybeat-schedule
+ajuda-gestor-src/site*
+ajuda-src/site*
