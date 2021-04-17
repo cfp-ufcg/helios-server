@@ -52,7 +52,7 @@ def get_voter(request, user, election):
   if not voter:
     if user:
       voter = Voter.get_by_election_and_user(election, user)
-  
+
   return voter
 
 # a function to check if the current user is a trustee
@@ -155,8 +155,13 @@ def user_can_see_election(request, election):
   if trustee and trustee.election.uuid == election.uuid:
     return True
 
+  voter = get_voter(request, user, election)
+
+  if user and not voter:
+    if user.user_type in settings.AUTH_BIND_USERID_TO_VOTERID:
+      voter = Voter.get_by_election_and_voter_id(election, user.user_id)
   # then this user has to be a voter
-  return (get_voter(request, user, election) != None)
+  return (voter != None)
 
 def api_client_can_admin_election(api_client, election):
   return election.api_client == api_client and api_client != None
