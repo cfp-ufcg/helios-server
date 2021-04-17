@@ -1537,7 +1537,7 @@ msgstr "Conectar para Visualizar Eleições"
 
 #: helios/templates/password_voter_login.html:6
 msgid "Private Election - Please Log In"
-msgstr "Por favor, conecte-se."
+msgstr "Você não está conectado, por favor entre com seu G-Suite clicando em <b>Conectar</b> no menu acima."
 
 #: helios/templates/release_result.html:3
 msgid "Release Result &mdash; {{election.name}}"
