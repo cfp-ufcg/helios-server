@@ -3362,7 +3362,7 @@ msgstr "Houve um erro durante o processamento de sua requisição."
 
 #: helios/templates/election_cast_confirm.html:63
 msgid "but this election requires election-specific credentials."
-msgstr "mas essa eleição requer credenciais específicas à eleição."
+msgstr "mas não tem autorização para votar nesta eleição."
 
 #~ msgid ""
 #~ "\n"

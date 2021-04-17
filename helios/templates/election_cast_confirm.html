@@ -1,4 +1,4 @@
-{% extends TEMPLATE_BASENONAV %}
+{% extends TEMPLATE_BASE %}
 {% load i18n %}
 {% load staticfiles %}
 {% block title %}{% trans "Confirm Vote" %}{% endblock %}
@@ -57,15 +57,16 @@ window.onbeforeunload = function(evt) {
 {% else %}
 
 {% if show_password %}
-{% if user %}
 <h3>{% trans "Wait!" %}</h3>
+{% if user %}
 <p>
     {% trans "You are logged in as " %}  <u> {{user.pretty_name|safe}} </u>, {% trans "but this election requires election-specific credentials." %}
 </p>
+{% else %}
+<p>
+  {% trans "Private Election - Please Log In" %}
+</p>
 {% endif %}
-{% with cast_ballot="1" %}
-{% include "_castconfirm_password.html" %}
-{% endwith %}
 
 {% else %}
 
